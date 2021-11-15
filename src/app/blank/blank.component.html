@@ -1,0 +1,13 @@
+<div class="container-fluid page">
+  <div class="page__box p-3 mt-2">Products</div>
+  <div class="page__content shadow p-3 position-relative">
+    <ag-grid-angular
+      style="width: 98%; height: 850px;"
+      class="ag-theme-alpine"
+      [rowData]="rowData"
+      [columnDefs]="columnDefs"
+      (click)="goToForms()"
+    >
+    </ag-grid-angular>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "ag-grid-community/dist/styles/ag-grid.css";
+@import "ag-grid-community/dist/styles/ag-theme-alpine.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+  .action-button {
+    border: none;
+    margin-top: 2px;
+    border-radius: 6px;
+    color: white;
+    height: 35px;
+    display: inline-block;
+    font-size: 15px;
+    opacity: 0.8;
+  }
+  
+  .action-button:hover {
+    opacity: 1;
+  }
+  
+  .action-button.edit {
+    background-color: #008cba; /* Blue */
+  }
+  
+  .action-button.delete {
+    background-color: #f44336; /* Red */
+  }
+
+  

@@ -1,0 +1,46 @@
+h4{
+    text-align: center;
+    padding: 1rem 1rem;
+    color: white;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+
+img{
+    position: absolute;
+    left: 26px;
+}
+
+.mat-icon{
+    vertical-align: center;
+    margin-right: 1rem;
+}
+
+.mat-divider{
+    border-top-width: 1px;
+    border-color: white;
+}
+
+.mat-list-item{
+    color: #94a3b8;
+    font-size: 0.8rem;
+    height: 45px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.mat-list-item:hover{
+    background: #2c3344;
+}
+
+.list-item-active{
+    color: #f2f5f7;
+}
+
+.mat-subheader{
+    color:#818cf8;
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
